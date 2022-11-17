@@ -1,4 +1,4 @@
-import { CREATE_POST } from "../redux/types";
+import { CREATE_POST } from "./types";
 
 export function createPost(post) {
   return {

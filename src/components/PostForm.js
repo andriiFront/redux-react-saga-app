@@ -1,5 +1,5 @@
 import React from "react";
-import { connect } from "react-redux";
+import { connect, ReactReduxContext } from "react-redux";
 import { createPost } from '../redux/actions'
 
 class PostForm extends React.Component {
@@ -15,6 +15,11 @@ class PostForm extends React.Component {
     event.preventDefault()
 
     const { title } = this.state
+
+    if(!title.trim()) {
+      return
+    }
+
     const newPost = {
       title, id: Date.now().toString()
     }
