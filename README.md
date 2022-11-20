@@ -10,7 +10,7 @@ TAP **[PREVIEW LINK](https://andriifront.github.io/redux-react-saga-app/)** TO S
 ## Links
 
 Video: [link](https://www.youtube.com/watch?v=G3GGXIhggGs&t=28s)
-Code: [link](https://github.com/andriiFront/redux-react-saga-app/tree/master/src)
+Code: [link](https://github.com/andriiFront/redux-react-saga-app)
 
 ## My Contacts
 Andrii Badekha
